@@ -80,7 +80,8 @@ const Hero = () => {
                 className="w-full px-6 py-4 rounded-lg text-white placeholder-gray-300 bg-black bg-opacity-80 border border-gray-600 focus:outline-none focus:ring-4 focus:ring-red-500 focus:ring-opacity-50 focus:border-red-500 transition-all duration-300 text-lg"
               />
             </div>
-            <motion.button
+            <a href="https://www.dmoonlight.com">
+                <motion.button
               onClick={handleEmailSubmit}
               className="bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-4 rounded-lg transition-all duration-300 shadow-xl text-lg whitespace-nowrap min-w-[120px]"
               whileHover={{ 
@@ -91,6 +92,7 @@ const Hero = () => {
             >
               Sign up
             </motion.button>
+            </a>
           </div>
         </motion.div>
       </div>

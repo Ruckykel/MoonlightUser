@@ -35,7 +35,8 @@ const Navbar = () => {
               FAQs
             </motion.button>
             
-            <motion.button
+            <a href="https://www.dmoonlight.com">
+              <motion.button
               className="bg-red-600 hover:bg-red-700 text-white font-semibold px-6 py-2 rounded-md transition-colors duration-200 shadow-lg"
               whileHover={{ 
                 scale: 1.05,
@@ -45,6 +46,7 @@ const Navbar = () => {
             >
               Sign up
             </motion.button>
+            </a>
           </div>
         </div>
       </div>
