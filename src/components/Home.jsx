@@ -4,7 +4,7 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import Producer from './Producer'
 import ReadyToWatch from './ReadyToWatch'
-import SignUp from './SignUp'
+import ReasonsSection from './ReasonsSection'
 import Trending from './Trending'
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
       <Hero />
       <Trending/>
       <Producer/>
-      <SignUp/>
+      <ReasonsSection />
       <FAQ/>
       <ReadyToWatch/>
       <Footer />
